@@ -17,6 +17,7 @@ module.exports = () => {
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
+      publicPath: ""
     },
     plugins: [
 
@@ -41,7 +42,7 @@ module.exports = () => {
         short_name: "JAST",
         description: "Texts whenever you need them!",
         background_color: "#272822",
-        start_url: "/",
+
         publicPath: "/",
         icons: [
           {
