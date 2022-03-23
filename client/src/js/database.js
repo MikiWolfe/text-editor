@@ -13,7 +13,7 @@ const initdb = async () =>
   });
 
 // logic to a method that accepts some content and adds it to the database
-export const putDb = async (content) => {
+export const putDb = async (id, content) => {
   console.log("UPDATING the database", content);
   console.error("putDb not implemented", content);
   const jateDb = await openDB("jate", 1);
@@ -24,7 +24,7 @@ export const putDb = async (content) => {
   console.log("Save the data!", result);
 };
 // logic for a method that gets all the content from the database
-export const getDb = async () => {
+export const getDb = async (content) => {
   console.log("GET all the Data!");
   console.error("getDb not implemented");
   const jateDb = await openDB("jate", 1);
@@ -32,7 +32,7 @@ export const getDb = async () => {
   const store = tx.objectStore("jate");
   const request = store.getAll();
   const result = await request;
-  console.log("result.value", result);
+  console.log(content, result);
   return result;
 };
 
