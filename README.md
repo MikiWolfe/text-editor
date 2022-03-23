@@ -44,7 +44,7 @@ GitHub profile: https://github.com/MikiWolfe
 Please contact: N/A with any questions. 
 
 ### Link to Deployed Site
-Link to the deployed site: *LATER*
+Link to the deployed site: https://stark-journey-38061.herokuapp.com/
 Link to the repo: https://github.com/MikiWolfe/text-editor
 
 ### Image of application
