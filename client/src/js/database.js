@@ -24,7 +24,7 @@ export const putDb = async (content) => {
   console.log("Save the data!", result);
 };
 // logic for a method that gets all the content from the database
-export const getDb = async (content) => {
+export const getDb = async () => {
   console.log("GET all the Data!");
   console.error("getDb not implemented");
   const jateDb = await openDB("jate", 1);
@@ -32,7 +32,7 @@ export const getDb = async (content) => {
   const store = tx.objectStore("jate");
   const request = store.getAll();
   const result = await request;
-  console.log(result, content);
+  console.log(result);
   return result;
 };
 
