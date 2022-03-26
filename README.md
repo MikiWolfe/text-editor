@@ -1,7 +1,7 @@
 # Text Editor
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description: 
-An application that allows us to edit text.
+An application that allows us to save and edit texts.  We are also able to install the application for use on our local machines.  
 Repository name: text-editor
 
 ## Table of Contents:
@@ -13,9 +13,17 @@ Repository name: text-editor
 * [Questions](#questions)
 
 ## Installation 
-``` npm i ``` on package json files 
+``` npm i ``` on package json files as well as ```npm run start``` to initialize the build for the client.
 ## Usage
-To edit text.
+Users can save short text messages and then come back and read them later. Can be used for reminders as as well and fun messages to your friends.  Texts are only saved for a short period of times, so this is great for daily short term but more reliable than local storage.  
+
+## Technologies Used:
+* Javascript  
+* MongooseDB  
+* Webpack  
+* idb  
+* Express JS
+
 ## Licensing
 2023 Mikayla B
 Copyright Permission is hereby granted, free of charge, 
@@ -41,7 +49,7 @@ None
 ## Questions
 Please reach out if you have any questions about this application:
 GitHub profile: https://github.com/MikiWolfe
-Please contact: N/A with any questions. 
+
 
 ### Link to Deployed Site
 Link to the deployed site: https://stark-journey-38061.herokuapp.com/
